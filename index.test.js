@@ -7,7 +7,9 @@ test('Корректная система', (done) => {
 		['Pavel', 'out'],
 		['Dmitriy', 'in'],
 		['Vova', 'out'],
-		['Dmitriy', 'out']
+		['Pavel', 'in'],
+		['Dmitriy', 'out'],
+		['Pavel', 'out'],
 	]);
 	
 	expect(result).toEqual(true);
