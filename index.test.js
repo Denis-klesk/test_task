@@ -29,7 +29,7 @@ test('Закрылось с посетителями', (done) => {
 	done();
 });
 
-test('Вышел неизместный посетитель', (done) => {
+test('Вышел неизвестный посетитель', (done) => {
 	const result = testService([
 		['Pavel', 'in'],
 		['Vova', 'in'],
